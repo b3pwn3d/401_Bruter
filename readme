@@ -19,6 +19,17 @@ This tool is useful for **auditing or verifying Basic Auth credentials** across 
 ## 🧰 Requirements
 
 - Python **3.7+**
-- The following libraries:
-  ```bash
-  pip install requests urllib3
+
+⚙️ Usage
+Run the script as a single-line command:
+python3 check_basic_auth_urls_with_protection.py --urls urls.txt --users users.txt --passwords passwords.txt --output valid_creds.txt --concurrency 5 --timeout 6 --max-errors 20 --retries 2 --delay 0.1
+
+📁 Input Files Format
+Each input file should contain one item per line, comments (#) and blank lines are ignored.
+Example – urls.txt
+https://example.com/login
+https://api.example.org/secure
+
+📜 Output Example
+https://example.com/login admin:admin123 HTTP 200
+https://api.example.org/secure user1:123456 HTTP 200
