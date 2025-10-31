@@ -1,0 +1,24 @@
+A robust **HTTP Basic Authentication checker** that validates username/password combinations against multiple URLs concurrently — with built-in retry, timeout, SSL, and error protection mechanisms.
+
+This tool is useful for **auditing or verifying Basic Auth credentials** across many endpoints, while minimizing service overload or lockouts due to network errors or rate limits.
+
+---
+
+## 🚀 Features
+
+✅ Concurrent URL testing (multi-threaded)  
+✅ Retry & exponential backoff system  
+✅ Skips URLs after too many consecutive errors  
+✅ Optional TLS certificate verification  
+✅ Graceful handling of SSL, timeout, and connection errors  
+✅ Option to stop once the first valid credential per URL is found  
+✅ Safe output logging of valid credentials  
+
+---
+
+## 🧰 Requirements
+
+- Python **3.7+**
+- The following libraries:
+  ```bash
+  pip install requests urllib3
