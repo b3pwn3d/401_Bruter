@@ -4,7 +4,7 @@ This tool is useful for **auditing or verifying Basic Auth credentials** across 
 
 ---
 
-## 🚀 Features
+##Features
 
 ✅ Concurrent URL testing (multi-threaded)  
 ✅ Retry & exponential backoff system  
