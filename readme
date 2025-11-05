@@ -1,6 +1,6 @@
-A robust **HTTP Basic Authentication checker** that validates username/password combinations against multiple URLs concurrently — with built-in retry, timeout, SSL, and error protection mechanisms.
+A HTTP Basic Authentication Brute force Tool that validates username/password combinations against multiple URLs concurrently — with built-in retry, timeout, SSL, and error protection mechanisms.
 
-This tool is useful for **auditing or verifying Basic Auth credentials** across many endpoints, while minimizing service overload or lockouts due to network errors or rate limits.
+This tool is useful for auditing or verifying Basic Auth credentials across many endpoints, while minimizing service overload or lockouts due to network errors or rate limits.
 
 ---
 
